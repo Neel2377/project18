@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.gifservice.fr/img/gif-vignette-small/a3a29b026bc1df944125cada700eb047/148224-transport-cars-langorghini-logo.gif"/>
+    <title>Buyer Form</title>
+
+    <style>
+    img {
+            max-width: 300px; /* Adjust the size of the image as needed */
+            height: auto;
+        }
+        /* Reset some basic elements */
+        body, h1, form, label, input, select, button {
+            margin: 100;
+            padding: 200;
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            font-family:'Times New Roman', Times, serif
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 100;
+            
+        }
+
+        /* Style the form container */
+        form {
+            border: 3px solid #000;
+            content: initial;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 400px;
+            width: 100%;
+            image-resolution: 5px;
+        }
+
+        /* Style the form elements */
+        h1 {
+            text-decoration: underline;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #000000;
+            text-decoration-style: solid;
+        }
+
+        label {
+            color: darkgoldenrod;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="address"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="file"],
+        select {
+            width: calc(100px-20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #262626;
+            border-radius: 4px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-inline: 10px;
+        }
+
+        input[type="checkbox"] + label {
+            display:inline-flex;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            background: #28a745;
+            color: #fff;
+            border: solid;
+            padding: 10px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFtJPdILAAkL4frf6X13ydmNFZscVrYmAkQ&s">
+    <center>
+    <form>
+        <center><img src="./lambotext.png"><h1>LAMBORGHINI CAR BUYER FORM</h1></center><br>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" size="25" placeholder="Enter your Full Name" required></br>
+        <label for="email">Email Id:</label>
+        <input type="text" id="name" name="name" size="25" placeholder="Enter your Full Name" required></br>
+        <label for="address">Address:</label>
+        <input type="address" id="address" name="address" size="46" placeholder="Enter your Delivery Address" required><br>
+        <label for="mobile number">Mobile Number:</label>
+        <select id="operator">
+            <option value="+91">+91</option>
+            <option value="+1">+1</option>
+            <option value="+44">+44</option>
+        </select>
+        <input type="tel" id="mobile number" name="mobile number" placeholder="Enter your Mobile Number" maxlength="10" pattern="[1-10]{10}" title="Mobile Number" required>
+        
+
+        <!-- --- Radio ---
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br> -->
+
+
+        <!-- Checkboxes -->
+        <label>Options:</label>
+        <input type="checkbox" id="onroad" name="Options" value="onroad">
+        <label for="onroad">Onroad</label>
+        <input type="checkbox" id="insurance" name="Options" value="insurance">
+        <label for="insurance">Insurance</label>
+        <input type="checkbox" id="accessories" name="Options" value="accessories">
+        <label for="accessories">Accessories</label><br><br>
+
+
+        <label for="deliverydate">Deliverydate:</label>
+        <input type="date"></br>
+        <label for="file">Documents Upload(All requirement documents collect & Create PDF):</label>
+        <input type="file"></br>
+        
+        <input type="checkbox" required><label for="checkbox">Accept the terms & conditions for buy a car</label></br></br>
+        <button>Submit For Payment process</button>
+    </form>
+</center>
+</body>
+</html>
